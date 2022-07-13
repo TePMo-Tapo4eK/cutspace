@@ -1,0 +1,22 @@
+.Header{
+    height: 112px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 165px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    &__point{
+        margin-left: 42px;   
+        font-weight: 400;
+
+        &active{
+            color: #F78434;
+            font-weight: 700;
+        }
+    }
+
+}
