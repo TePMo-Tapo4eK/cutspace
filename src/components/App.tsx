@@ -4,6 +4,7 @@ import styles from './App.module.scss'
 import MainInfo from './MainInfo/MainInfo'
 import Comp from './Companies/Comp'
 import Space from './SpaceForYou/Space'
+import Start from './Start/Start'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <MainInfo/>
       <Comp/>
       <Space/>
+      <Start/>
     </div>
   )
 }
