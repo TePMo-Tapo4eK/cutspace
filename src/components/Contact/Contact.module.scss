@@ -1,0 +1,32 @@
+.Contact{
+    margin-top: 42px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 165px;
+    height: 550px;
+    width: 100%;
+    background: url(../../imgs/cont.svg) no-repeat;
+    background-position: 0 100%;
+    color: white;
+    h1{
+        font-size: 43px;
+        line-height: 62px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 16px;
+        line-height: 27px;
+        margin-top: 15px;
+    }
+    button{
+        margin-top: 30px;
+        margin-bottom: 55px;
+        padding: 0 39px;
+        height: 58px;
+        border-radius: 29px;
+        background-color: white;
+        color: black;
+        font-weight: 700;
+    }
+}
