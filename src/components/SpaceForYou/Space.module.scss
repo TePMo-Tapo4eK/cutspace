@@ -1,0 +1,63 @@
+.Space{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0 165px;
+    height: 550px;
+    position: relative;
+    &__Info{
+        max-width: 400px;
+        h1{
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 62px;
+        }
+        p{
+            margin-top: 20px;
+            line-height: 27px;
+        }
+        button{
+            margin-top: 40px;
+            height: 58px;
+            border-radius: 29px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: white;
+            background-color: #F78434;
+            padding: 0 39px;
+        }
+    }
+}
+
+.float{
+    position: absolute;
+    bottom: 87px;
+    left: 470px;
+    width: 300px;
+    padding: 32px 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    background-color: white;
+    h2{
+        font-weight: 700;
+        line-height: 24px;
+    }
+    p{
+        line-height: 27px;
+    }
+
+    &__imgs{
+        position: absolute;
+        height: 100%;
+        left: 0;
+        top: 0;
+        img:first-child{
+            margin-right: 32px;
+        }
+    }
+}

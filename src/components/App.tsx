@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Header from './Header/Header'
 import styles from './App.module.scss'
 import MainInfo from './MainInfo/MainInfo'
+import Comp from './Companies/Comp'
+import Space from './SpaceForYou/Space'
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
     <div className={styles.App}>
       <Header/>
       <MainInfo/>
+      <Comp/>
+      <Space/>
     </div>
   )
 }
